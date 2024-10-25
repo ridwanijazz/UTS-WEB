@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teka Teki Silang (TTS)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Teka-Teki Silang (TTS)</h1>
+    <div id="crossword-grid">
+      <table id="tts"></table>
+    </div>
+    <div id="clues">
+        <div class="datar">
+            <h2>Pertanyaan Mendatar</h2>
+            <ul id="horizontal-clues"></ul>
+        </div>
+        <div class="turun">
+            <h2>Pertanyaan Menurun</h2>
+            <ul id="vertical-clues"></ul>
+        </div>
+    </div>
+    <div id="score">Skor: 0</div>
+    <button onclick="checkAnswers()">Cek Jawaban</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
